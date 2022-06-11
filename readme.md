@@ -1,3 +1,3 @@
 # Instalação
 
-Invoke-WebRequest https://raw.githubcontentuser.com/bredsan/psheesh/psh | Invoke-Expression
+    iwr -useb https://raw.githubcontentuser.com/bredsan/psheesh/psh | iex
