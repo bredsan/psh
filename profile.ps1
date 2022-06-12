@@ -1,10 +1,10 @@
-$psheesh = Invoke-WebRequest https://raw.githubusercontent.com/bredsan/psheesh/psheesh.ps1 | Invoke-Expression
-$dev = Invoke-WebRequest https://raw.githubusercontent.com/bredsan/psheesh/dev.ps1 | Invoke-Expression
+$psh = Invoke-WebRequest https://raw.githubusercontent.com/bredsan/psh/psh.ps1 | Invoke-Expression
+$dev = Invoke-WebRequest https://raw.githubusercontent.com/bredsan/psh/dev.ps1 | Invoke-Expression
 
 
-function psheesh {
-    # Carrega o perfil ESTI
-    $psheesh
+function psh {
+    # Carrega o perfil PSHESH
+    $psh
 }
 
 function dev {
