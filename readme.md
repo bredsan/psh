@@ -1,3 +1,3 @@
-# Instalação
+# Install
 
-    iwr -useb https://raw.githubcontentuser.com/bredsan/psh/main/install.ps1 | iex
+    iwr https://raw.githubcontentuser.com/bredsan/psh/main/psh.ps1 | iex
