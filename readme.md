@@ -1,3 +1,3 @@
 # Instalação
 
-    iwr https://raw.githubcontentuser.com/bredsan/psh/main/install.ps1 | iex
+    iwr https://raw.githubusercontent.com/bredsan/psh/main/install.ps1 | iex
