@@ -1,0 +1,1 @@
+﻿Invoke-WebRequest "https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/11.2.0.11191/500.1001/WPSOffice_11.2.0.11191.exe" -OutFile wpsoffice.exe | ProgressBar -activity "Baixando WPSOffice"
