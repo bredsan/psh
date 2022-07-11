@@ -1,2 +1,0 @@
-# if exist psh folder git clone scripts else mkdir psh
-# bit-transfer profile.ps1 powershell_profile.ps1
