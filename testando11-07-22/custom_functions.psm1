@@ -1,4 +1,4 @@
-﻿filter ProgressBar
+﻿filter Get-Progress
 {
     
     param(
@@ -17,7 +17,7 @@
     }
 }
 
-filter Percent
+filter Get-Percentage
 {
     param(
         [Parameter(Mandatory,ValueFromPipeline)]
