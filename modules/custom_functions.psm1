@@ -1,4 +1,4 @@
-﻿function Del-H
+﻿function Delete-History
 {
     $history = (Get-PSReadlineOption).HistorySavePath
     del $history
@@ -6,7 +6,7 @@
     Clear-Host
 }
 
-filter ProgressBar
+filter Get-Progress
 {
     
     param(
@@ -26,7 +26,7 @@ filter ProgressBar
     }
 }
 
-filter Percent
+filter Get-Percentage
 {
     param(
         [Parameter(Mandatory,ValueFromPipeline)]
